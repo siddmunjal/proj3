@@ -8,10 +8,10 @@ Three Steps to set up your virtual environment, run the code, and generate a fla
 
 # A. Create the venv
 cd proj3
-python -m venv .venv
+python -m venv enviro
 
 # B. Activate the venv
-.\.venv\Scripts\activate
+.\enviro\Scripts\activate
 
 
 # C. Install project dependencies
@@ -19,12 +19,9 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 ## 2. Run the Code
-bash
-Copy
-Edit
 python etl_pipeline.py
 
-## 3. Generate a flake8-HTML Report
+## 3. Generate a flake8 Report
 
 # A. Install
 pip install flake8 flake8-html
