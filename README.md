@@ -8,6 +8,7 @@ Three Steps to set up your virtual environment, run the code, and generate a fla
 
 # A. Create the venv
 cd proj3
+
 python -m venv enviro
 
 # B. Activate the venv
