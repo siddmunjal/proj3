@@ -17,6 +17,7 @@ python -m venv enviro
 
 # C. Install project dependencies
 pip install --upgrade pip
+
 pip install -r requirements.txt
 
 ## 2. Run the Code
