@@ -6,12 +6,12 @@ Three Steps to set up your virtual environment, run the code, and generate a fla
 
 ## 1. Build & Activate the Virtual Environment
 
-# A. Create the venv
+# A. Create the virtual environment
 cd proj3
 
 python -m venv enviro
 
-# B. Activate the venv
+# B. Activate the virtual environment
 .\enviro\Scripts\activate
 
 
