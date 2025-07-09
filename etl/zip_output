@@ -1,0 +1,10 @@
+import os
+import zipfile
+
+def zip_output(df, output_dir="output_data"):
+    os.makedirs(output_dir, exist_ok=True)
+    output_file = os.path.join(output_dir, "cleaned_cereal.csv")
+    df.to_csv(output_file, index=False)
+
+    with zipfile.ZipFile("output_data.zip", 'w') as z:
+        z.write(output_file, arcname="cleaned_cereal.csv")
