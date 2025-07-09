@@ -21,7 +21,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 ## 2. Run the Code
-python etl_pipeline.py
+python main.py
 
 ## 3. Generate a flake8 Report
 
