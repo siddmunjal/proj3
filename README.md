@@ -1,6 +1,6 @@
 # proj3
 
-Three Steps to set up your virtual environment, run the code, and generate a flake8-html file. 
+Three Steps to set up your virtual environment, run the code, and generate a flake8 file. 
 
 ---
 
@@ -25,11 +25,11 @@ python etl_pipeline.py
 
 ## 3. Generate a flake8 Report
 
-# A. Install
+# A. Install Packages (if not done so previously)
 pip install flake8 flake8-html
 
-# B. Run flake8 with HTML output
-flake8 --format=html --htmldir=deliverables/flake8-report
 
-# C. View the report
-start deliverables\flake8-report\index.html
+# B. Generate File 
+flake8 . > flake8_report.txt
+
+
